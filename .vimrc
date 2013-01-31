@@ -85,5 +85,6 @@ inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 let g:neocomplcache_dictionary_filetype_lists = {
   \ 'default' : '',
   \ 'php' : $HOME . '/.vim/dict/php.dict',
+  \ 'ctp' : $HOME . '/.vim/dict/php.dict',
   \ }
 
